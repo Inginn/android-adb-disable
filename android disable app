@@ -1,0 +1,2 @@
+# annoying check your weekly report
+adb shell pm disable-user --user 0 com.samsung.android.forest
