@@ -1,2 +1,4 @@
-# annoying check your weekly report
+# Get list of apps with visible notifications
+dumpsys notification | egrep NotificationRecord | awk -F\| '{print $2}'
+# Annoying message    check your weekly report
 adb shell pm disable-user --user 0 com.samsung.android.forest
